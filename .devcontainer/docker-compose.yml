@@ -20,4 +20,4 @@ services:
       POSTGRES_INITDB_ARGS: "-E UTF8 --locale=C"
       POSTGRES_HOST_AUTH_METHOD: md5
     volumes:
-      - ../.devcontainer/devdata/postgres:/var/lib/postgresql/data
+      - ../devdata/postgres:/var/lib/postgresql/data
