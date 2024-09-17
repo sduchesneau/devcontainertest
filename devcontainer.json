@@ -1,0 +1,6 @@
+{
+    "name": "devcontainer test",
+    "dockerComposeFile": "docker-compose.yml",
+    "workspaceFolder": "/workspace",
+    "service": "main"
+}
